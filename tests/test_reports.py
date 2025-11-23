@@ -28,7 +28,7 @@ def test_performance_report():
 
 def test_performance_report_empty_data():
     """Тест с пустыми данными"""
-    with pytest.raises(ValueError, match="Нет данных для генерации отчета"):
+    with pytest.raises(ValueError, match='Нет данных для генерации отчета'):
         report = PerformanceReport([])
         report.generate()
 

@@ -8,7 +8,7 @@ import argparse
 def parse_arguments():
     """Парсинг аргументов командной строки"""
     parser = argparse.ArgumentParser(
-        description="Генератор отчетов из CSV-файлов с данными сотрудников"
+        description='Генератор отчетов из CSV-файлов с данными сотрудников'
     )
 
     parser.add_argument(

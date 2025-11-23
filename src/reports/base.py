@@ -20,4 +20,4 @@ class BaseReport(ABC):
 
     def format_table(self, headers, rows):
         """Форматирование данных в таблицу"""
-        return tabulate(rows, headers=headers, tablefmt='grid', floatfmt=".2f")
+        return tabulate(rows, headers=headers, tablefmt='grid', floatfmt='.2f')

@@ -22,7 +22,7 @@ def main():
         print(report.generate())
 
     except Exception as e:
-        print(f"Ошибка: {e}")
+        print(f'Ошибка: {e}')
         exit(1)
 
 

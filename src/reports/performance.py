@@ -12,7 +12,7 @@ class PerformanceReport(BaseReport):
 
     def generate(self):
         if not self.data:
-            raise ValueError("Нет данных для генерации отчета")
+            raise ValueError('Нет данных для генерации отчета')
 
         # Группировка данных по позициям
         position_data = defaultdict(list)
